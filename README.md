@@ -7,6 +7,7 @@ This repository contains the code for the paper:
 **"When in Doubt, Consult: Expert Debate for Sexism Detection via Confidence-Based Routing"**
 *(Submitted to ACL 2026)*
 
+**Authors:** Anwar Alajmi and Gabriele Pergola
 
 
 ---
@@ -22,7 +23,7 @@ To address these challenges, we propose a two-stage framework that unifies (i) t
 ## Framework
 
 <p align="center">
-  <img src="assets/intro.jpg" width="700"/>
+  <img src="assets/framework.png" width="700"/>
 </p>
 
 ---
@@ -165,4 +166,18 @@ python routing/routing_b_c.py \
 
 **EXIST 2025**: Publicly available. Please follow the official organizers' terms to access the dataset. Evaluation must be performed using Evaluate ALL 2.0, available at: [https://evall.uned.es/](https://evall.uned.es/)
 
+---
 
+## Citation
+
+```bibtex
+@misc{alajmi2026doubtconsultexpertdebate,
+      title={When in Doubt, Consult: Expert Debate for Sexism Detection via Confidence-Based Routing}, 
+      author={Anwar Alajmi and Gabriele Pergola},
+      year={2026},
+      eprint={2512.23732},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2512.23732}, 
+}
+```
