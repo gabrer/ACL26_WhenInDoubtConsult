@@ -23,7 +23,7 @@ To address these challenges, we propose a two-stage framework that unifies (i) t
 ## Framework
 
 <p align="center">
-  <img src="assets/framework.png" width="700"/>
+  <img src="assets/framework.jpg" width="700"/>
 </p>
 
 ---
