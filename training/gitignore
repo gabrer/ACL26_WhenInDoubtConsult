@@ -1,0 +1,40 @@
+# Training outputs
+runs/
+predictions/
+outs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+venv/
+.venv/
+
+# Model artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# HuggingFace cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
