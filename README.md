@@ -5,7 +5,8 @@
 This repository contains the code for the paper:
 
 **"When in Doubt, Consult: Expert Debate for Sexism Detection via Confidence-Based Routing"**
-*(Submitted to ACL 2026)*
+ACL 2026 - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+July 2-7, 2026 ©2026 Association for Computational Linguistics
 
 **Authors:** Anwar Alajmi and Gabriele Pergola
 
@@ -171,13 +172,23 @@ python routing/routing_b_c.py \
 ## Citation
 
 ```bibtex
-@misc{alajmi2026doubtconsultexpertdebate,
-      title={When in Doubt, Consult: Expert Debate for Sexism Detection via Confidence-Based Routing}, 
-      author={Anwar Alajmi and Gabriele Pergola},
-      year={2026},
-      eprint={2512.23732},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2512.23732}, 
+@inproceedings{alajmi-pergola-2026-doubt,
+    title = "When in Doubt, Consult: Expert Debate for Sexism Detection via Confidence-Based Routing",
+    author = "Alajmi, Anwar  and
+      Pergola, Gabriele",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.1936/",
+    doi = "10.18653/v1/2026.acl-long.1936",
+    pages = "41800--41822",
+    ISBN = "979-8-89176-390-6",
+    abstract = "Online sexism increasingly appears in subtle, context-dependent forms that evade traditional detection methods. Its interpretation often depends on overlapping linguistic, psychological, legal, and cultural dimensions, which produce mixed and sometimes contradictory signals in annotated datasets. These inconsistencies, combined with label scarcity and class imbalance, result in unstable decision boundaries and cause fine-tuned models to overlook subtler, underrepresented forms of harm. To address these challenges, we propose a two-stage framework that unifies (i) targeted training procedures to better regularize supervision to scarce and noisy data with (ii) selective, reasoning-based inference to handle ambiguous or borderline cases. First, we stabilize the training combining class-balanced focal loss, class-aware batching, and post-hoc threshold calibration, strategies for the firs time adapted for this domain to mitigate label imbalance and noisy supervision. Second, we bridge the gap between efficiency and reasoning with a a dynamic routing mechanism that distinguishes between unambiguous instances and complex cases requiring a deliberative process. This reasoning process results in the novel Collaborative Expert Judgment (CEJ) module which prompts multiple personas and consolidates their reasoning through a judge model. Our approach outperforms existing approaches across several public benchmarks, with F1 gains of +4.48{\%} and +1.30{\%} on EDOS Tasks A and B, respectively, and a +2.79{\%} improvement in ICM on EXIST 2025 Task 1.1."
 }
 ```
